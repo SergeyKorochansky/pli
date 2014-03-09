@@ -1,0 +1,88 @@
+body {
+position: relative;
+padding-top: 60px;
+}
+h1 {
+font-size: 2.6em;
+}
+footer {
+margin-top:1em;
+}
+cite {font-style:italic;}
+
+.spacer5 {clear:both;height:5px;}
+.centered {text-align:center;}
+.clearfix {clear:both;}
+.voffset {margin:.5em 0;}
+
+/* navbar */
+#navbar .btn-group {
+margin:5px;
+}
+#navbar .btn {
+padding: 4px 12px;
+font-size:18px;
+}
+#navbar .nav .typeahead {
+margin:.4em 0 0 0;
+}
+#navbar .share .btn {
+margin:.3em .5em .3em;
+font-size:1.2em;
+}
+.caret {
+opacity:.8;
+}
+.small {
+font-size:.85em;
+}
+.tags span {
+padding:.4em;
+margin-bottom:.5em;
+font-size:1.1em;7
+}
+.tags a {
+color:#fff;
+}
+#site-name {
+background: url('../img/exploring-data.png') no-repeat center left;
+padding-left:40px;
+font-size:1.6em;
+font-family:Impact, fantasy;
+color:#8ce;
+margin-left:0;
+}
+body.full #navbar .navbar-inner {
+padding:0 10px;
+}
+/* wrappers */
+#footer, #comments {
+border-top:2px solid #EAEEF0;
+}
+#comments {
+padding-top:10px;
+}
+body.full #footer {display:none;}
+
+.modal-large {
+width:76%;
+margin-left:-38%;
+}
+/* share menu to the left */
+#sharemenu .dropdown-menu {
+right:0;
+left:auto;
+}
+/* newsletter */
+#mce-EMAIL {
+width:90%;
+}
+/* front gallery */
+.span4 h5 {
+height: 1.4em;
+overflow: hidden;
+}
+/* info pages */
+.vis-preview {
+margin-bottom:1em;
+}
